@@ -8,3 +8,36 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+
+/*
+* --------------------------------------------
+* These are some styles that I am customizing 
+* to over-ride the default bootstrap ones
+*---------------------------------------------
+*/
+.bg-info {
+  background-color: #43281C !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #FBF2C0;
+}
+.navbar-brand{
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.25rem;
+}
+.btn-primary {
+  color: #FBF2C0;
+  background-color: #48392A;
+  border-color: #25283D;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #25283D;
+  border-color: #48392A;
+}
+
+body {
+  background-color: #FBF2C0;
+}
